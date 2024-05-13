@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.caixa-principal {
+    height: 100vh;
+    width: 100%;
+    background: url(./img/background.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #191919;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #eee;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.portfolio {
+    color: #ffffff;
+    font-size: 40px;
+
+}
+
+.portfolio span {
+    color: #f9004d;
+
+
+}
+
+a {
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+a:hover {
+    color: #f9004d;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.meu-nome {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 75px;
+}
+
+h1 span {
+    color: #f9004d
+}
+
+.meu-nome h3 {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 60px 1%;
+    background-color: #000000;
+
+}
+
+section img {
+    border-radius: 100%;
+    height: 300px;
+    border: 2px solid #f9004d;
+    margin-right: 30px;
+}
+
+section div h2 {
+    color: #ffffff;
+    font-size: 75px;
+}
+
+section div p {
+    color: #f1789f;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+section div a {
+    color: #ffffff;
+    padding: 10px;
+    background-color: #f9004d;
+    height: 50px;
+    width: 180px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+section div a:hover {
+    background-color: black;
+    border: 3px solid #f9004d;
+    font-weight: bold;
+    transition: 0.5s;
+
+}
+
+.projetos {
+    background-color: #191919;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+}
+
+.projetos h2 {
+    color: #ffffff;
+    font-size: 70px;
+    text-align: center;
+}
+
+.card {
+    background-color: #000000;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    padding: 20px 35px;
+    text-align: center;
+
+}
+
+.card img {
+    height: 100px;
+
+}
+
+.card h5 {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.card p {
+    color: #f1789f;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card a {
+    color: #ffffff;
+    background-color: #f9004d;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card a:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.caixa-card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+footer{
+    background-color: #000000;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h5{
+     font-size: 30px;
+     color: #ffffff;
+}
+
+footer p{
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.contato{
+    display: flex;
+    gap: 20px;
+}
+
+.contato img{
+    height: 25px;
+    border-radius: 50%;
+}
+
+.contato a{
+    background-color: #f9004d;
+    border-radius: 50%;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+
+}
+
+.contato a:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
